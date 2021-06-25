@@ -118,7 +118,7 @@ const server = require('../../index.js')
     describe("GET /api/user/me",()=>{
         let token;
         before(done=>{
-            const user={email:"mahela@gmail.com",password:"123456"}
+            const user={email:"phatx40@gmail.com",password:"password"}
             chai.request(server)
                 .post('/api/user/login')
                 .send(user)
